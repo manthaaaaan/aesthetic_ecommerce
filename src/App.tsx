@@ -112,6 +112,11 @@ function App() {
       <div className={`toast ${toastVisible ? 'is-visible' : ''}`} role="status" aria-live="polite">
         Added to your bag
       </div>
+
+      <div className="sunset-sticker" aria-label="Built by Sunset Lab">
+        <span>built by</span>
+        <strong>sunset lab</strong>
+      </div>
     </>
   );
 }
